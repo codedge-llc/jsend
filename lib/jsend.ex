@@ -94,7 +94,7 @@ case Code.ensure_compiled(JSON.Encoder) do
       end
     end
 
-  {:error, reason} ->
+  {:error, _reason} ->
     :ok
 end
 
@@ -111,6 +111,6 @@ case Code.ensure_compiled(Jason.Encoder) do
       end
     end
 
-  {:error, reason} ->
+  {:error, _reason} ->
     :ok
 end

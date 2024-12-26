@@ -1,11 +1,17 @@
-# Jsend
+# JSend
 
-**TODO: Add description**
+> JSend API specification for Elixir. Learn more at [omniti-labs/jsend](https://github.com/omniti-labs/jsend).
+
+[![CI](https://github.com/codedge-llc/jsend/actions/workflows/ci.yml/badge.svg)](https://github.com/codedge-llc/jsend/actions/workflows/ci.yml)
+[![Version](https://img.shields.io/hexpm/v/jsend.svg)](https://hex.pm/packages/jsend)
+[![Total Downloads](https://img.shields.io/hexpm/dt/jsend.svg)](https://hex.pm/packages/jsend)
+[![License](https://img.shields.io/hexpm/l/jsend.svg)](https://github.com/codedge-llc/jsend/blob/main/LICENSE.md)
+[![Last Updated](https://img.shields.io/github/last-commit/codedge-llc/jsend.svg)](https://github.com/codedge-llc/jsend/commits/main)
+[![Documentation](https://img.shields.io/badge/documentation-gray)](https://hexdocs.pm/jsend/)
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `jsend` to your list of dependencies in `mix.exs`:
+1. Add `jsend` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
@@ -15,7 +21,24 @@ def deps do
 end
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/jsend>.
+## Contributing
 
+### Testing
+
+Unit tests can be run with `mix test`.
+
+### Formatting
+
+This project uses Elixir's `mix format` and [Prettier](https://prettier.io) for formatting.
+Add hooks in your editor of choice to run it after a save. Be sure it respects this project's
+`.formatter.exs`.
+
+### Commits
+
+Git commit subjects use the [Karma style](http://karma-runner.github.io/5.0/dev/git-commit-msg.html).
+
+## License
+
+Copyright (c) 2024 Codedge LLC (https://www.codedge.io/)
+
+This library is MIT licensed. See the [LICENSE](https://github.com/codedge-llc/jsend/blob/main/LICENSE.md) for details.
