@@ -9,8 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 **Fixed**
 
-- `JSON.Encoder` implementation crashed on Elixir 1.19 and later. It called an
-  internal Elixir module that no longer exists.
+- `JSON.Encoder` implementation crashed on Elixir 1.20. It called an internal
+  Elixir module that 1.20 removed.
 
 **Changed**
 
