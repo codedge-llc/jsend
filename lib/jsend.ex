@@ -90,7 +90,7 @@ case Code.ensure_compiled(JSON.Encoder) do
           |> Enum.reject(fn {_, v} -> v == nil end)
           |> Enum.into(%{})
 
-        :elixir_json.encode_map(map, encoder)
+        encoder.(map, encoder)
       end
     end
 
