@@ -15,7 +15,7 @@
 ```elixir
 def deps do
   [
-    {:jsend, "~> 0.1.0"}
+    {:jsend, "~> 0.1.1"}
   ]
 end
 ```
