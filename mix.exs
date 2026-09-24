@@ -8,8 +8,9 @@ defmodule JSend.MixProject do
     [
       app: :jsend,
       deps: deps(),
+      dialyzer: dialyzer(),
       docs: docs(),
-      elixir: "~> 1.14",
+      elixir: "~> 1.16",
       name: "JSend",
       package: package(),
       start_permanent: Mix.env() == :prod,
@@ -30,6 +31,12 @@ defmodule JSend.MixProject do
       {:dialyxir, "~> 1.3", only: [:dev], runtime: false},
       {:ex_doc, ">= 0.0.0", only: [:dev]},
       {:jason, "~> 1.0", optional: true}
+    ]
+  end
+
+  defp dialyzer do
+    [
+      plt_file: {:no_warn, "priv/plts/dialyzer.plt"}
     ]
   end
 

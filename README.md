@@ -6,7 +6,6 @@
 [![Version](https://img.shields.io/hexpm/v/jsend.svg)](https://hex.pm/packages/jsend)
 [![Total Downloads](https://img.shields.io/hexpm/dt/jsend.svg)](https://hex.pm/packages/jsend)
 [![License](https://img.shields.io/hexpm/l/jsend.svg)](https://github.com/codedge-llc/jsend/blob/main/LICENSE.md)
-[![Last Updated](https://img.shields.io/github/last-commit/codedge-llc/jsend.svg)](https://github.com/codedge-llc/jsend/commits/main)
 [![Documentation](https://img.shields.io/badge/documentation-gray)](https://hexdocs.pm/jsend/)
 
 ## Installation
@@ -39,6 +38,6 @@ Git commit subjects use the [Karma style](http://karma-runner.github.io/5.0/dev/
 
 ## License
 
-Copyright (c) 2024 Codedge LLC (https://www.codedge.io/)
+Copyright (c) 2024-2026 Codedge LLC (https://www.codedge.io/)
 
 This library is MIT licensed. See the [LICENSE](https://github.com/codedge-llc/jsend/blob/main/LICENSE.md) for details.

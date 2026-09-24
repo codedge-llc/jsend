@@ -10,6 +10,7 @@ defmodule JSendTest do
       assert res == "{\"data\":{\"id\":1,\"name\":\"Some name\"},\"status\":\"success\"}"
     end
 
+    @tag :json
     test "encodes with JSON" do
       data = %{id: 1, name: "Some name"}
       res = data |> JSend.success() |> JSON.encode!()
@@ -26,6 +27,7 @@ defmodule JSendTest do
       assert res == "{\"data\":{\"msg\":\"Something went wrong\"},\"status\":\"fail\"}"
     end
 
+    @tag :json
     test "encodes with JSON" do
       data = %{msg: "Something went wrong"}
       result = data |> JSend.fail() |> JSON.encode!()
@@ -42,6 +44,7 @@ defmodule JSendTest do
                "{\"code\":500,\"data\":{\"msg\":\"There was a server error\"},\"message\":\"INTERNAL SERVER ERROR\",\"status\":\"error\"}"
     end
 
+    @tag :json
     test "encodes with JSON" do
       data = %{msg: "There was a server error"}
       result = "INTERNAL SERVER ERROR" |> JSend.error(500, data) |> JSON.encode!()
